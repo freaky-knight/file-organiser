@@ -1,0 +1,21 @@
+{
+  "categories": {
+    "Images": [".jpg", ".jpeg", ".png", ".gif", ".webp", ".bmp", ".svg", ".tiff", ".tif", ".ico", ".heic", ".raw", ".cr2", ".nef", ".arw"],
+    "Videos": [".mp4", ".mkv", ".avi", ".mov", ".wmv", ".webm", ".flv", ".m4v", ".mpg", ".mpeg", ".3gp"],
+    "Music": [".mp3", ".wav", ".flac", ".aac", ".ogg", ".m4a", ".wma"],
+    "Documents": [".pdf", ".txt", ".doc", ".docx", ".odt", ".rtf", ".md"],
+    "Spreadsheets": [".xls", ".xlsx", ".csv", ".ods"],
+    "Presentations": [".ppt", ".pptx", ".odp"],
+    "Archives": [".zip", ".rar", ".7z", ".tar", ".gz", ".bz2", ".xz"],
+    "Programs": [".exe", ".msi", ".apk", ".deb", ".appimage"]
+  },
+  "conflict_policy": "rename",
+  "default_category": "Others",
+  "include_hidden": false,
+  "recursive": false,
+  "size_thresholds_mb": {"small": 10, "medium": 100},
+  "custom_rules": [],
+  "date_organization": {"enabled": false, "timestamp": "modified", "format": "%Y-%m"},
+  "size_organization": {"enabled": false, "labels": ["Small", "Medium", "Large"]},
+  "logging": {"enabled": true, "level": "INFO"}
+}
