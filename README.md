@@ -61,7 +61,7 @@ Run the application using its actual entry point. For example, if `organizer.py`
 python organizer.py
 ```
 
-Replace `YOUR-USERNAME` with your GitHub username. Adjust the commands if your project's actual entry point or dependencies differ.
+Replace `freaky-knight` with your GitHub username. Adjust the commands if your project's actual entry point or dependencies differ.
 
 ## 📖 How It Works
 
