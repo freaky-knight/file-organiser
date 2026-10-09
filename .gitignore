@@ -1,0 +1,25 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Python environments and editor state
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# Local settings, histories, logs, and temporary files
+.env
+.env.*
+config.local.json
+history.json
+*.log
+*.tmp
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
